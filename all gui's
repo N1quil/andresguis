@@ -1,0 +1,4 @@
+-- ALL GUIS AS LOADSTRINGS
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/N1quil/andresguis/refs/heads/main/andrestg'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/N1quil/andresguis/refs/heads/main/andreseng'))()

@@ -1,0 +1,155 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local Window = Rayfield:CreateWindow({
+   Name = "andres's editor's nextbots gui",
+   LoadingTitle = "Loading eng",
+   LoadingSubtitle = "remember to drink water!",
+   Theme = "Amethyst", -- Check https://docs.sirius.menu/rayfield/configuration/themes
+
+   DisableRayfieldPrompts = false,
+   DisableBuildWarnings = true, -- Prevents Rayfield from warning when the script has a version mismatch with the interface
+
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = nil, -- Create a custom folder for your hub/game
+      FileName = "Big Hub"
+   },
+
+   Discord = {
+      Enabled = true, -- Prompt the user to join your Discord server if their executor supports it
+      Invite = "UVUmK7Tkjj", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
+      RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+   },
+
+   KeySystem = false, -- Set this to true to use our key system
+   KeySettings = {
+      Title = "Ballssystem",
+      Subtitle = "imnotfuckingusingthisshit",
+      Note = "No method of obtaining the fuck to give is provided", -- Use this to tell the user how to get a key
+      FileName = "kys", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
+      SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+      GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+      Key = {"Hello"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+   }
+})
+
+local Tab = Window:CreateTab("Editors Nextbots", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("teleports") 
+
+local Button = Tab:CreateButton({
+   Name = "Facility",
+   Callback = function()
+      game.Workspace.beeposkoop.HumanoidRootPart.CFrame = CFrame.new(3366.31348, -83.132637, -5898.64453, -0.999305427, 1.76566566e-08, 0.0372639783, 1.82858493e-08, 1, 1.65439147e-08, -0.0372639783, 1.72138268e-08, -0.999305427)
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Ironwood",
+   Callback = function()
+      game.Workspace.beeposkoop.HumanoidRootPart.CFrame = CFrame.new(3440.45679, -81.0481567, -5271.3335, -0.0380955227, 1.12293151e-07, 0.999274075, 4.65231906e-08, 1, -1.10601114e-07, -0.999274075, 4.22760138e-08, -0.0380955227)
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "South Side",
+   Callback = function()
+      game.Workspace.beeposkoop.HumanoidRootPart.CFrame = CFrame.new(3667.80859, -105.385117, -6987.83398, 0.0176097844, 3.04874881e-08, 0.999844909, 3.89845383e-08, 1, -3.1178832e-08, -0.999844909, 3.95275457e-08, 0.0176097844)
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Voxel",
+   Callback = function()
+      game.Workspace.beeposkoop.HumanoidRootPart.CFrame = CFrame.new(2318, 12.5000305, -165.999756, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+    end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Backrooms",
+   Callback = function()
+      game.Workspace.beeposkoop.HumanoidRootPart.CFrame = CFrame.new(70.5382538, 20.9999962, -5700.02734, 0.984715283, -4.3799524e-08, 0.174171522, 4.17457429e-08, 1, 1.54551696e-08, -0.174171522, -7.94802357e-09, 0.984715283)
+    end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Poolrooms",
+   Callback = function()
+      game.Workspace.beeposkoop.HumanoidRootPart.CFrame = CFrame.new(1804.69946, 619.500854, 602.149048, 0.0907798111, 2.36726816e-08, 0.995871007, 4.5661654e-08, 1, -2.7933174e-08, -0.995871007, 4.80088858e-08, 0.0907798111)
+    end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Maze",
+   Callback = function()
+      game.Workspace.beeposkoop.HumanoidRootPart.CFrame = CFrame.new(2254.07007, 2126.3999, -4252.3999, 0.0787314922, -6.85127022e-09, -0.99689585, 3.95102191e-08, 1, -3.75221898e-09, 0.99689585, -3.90921571e-08, 0.0787314922)
+    end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Flatgrass",
+   Callback = function()
+      game.Workspace.beeposkoop.HumanoidRootPart.CFrame = CFrame.new(196.103088, 2714.49976, -8471.03027, 0.0274532326, 5.54010615e-09, -0.99962306, 2.35901911e-08, 1, 6.19006624e-09, 0.99962306, -2.37512374e-08, 0.0274532326)
+    end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Playground",
+   Callback = function()
+      game.Workspace.beeposkoop.HumanoidRootPart.CFrame = CFrame.new(-18, 10.999999, -196, -0.999669969, 0, -0.0256614462, 0, 1, 0, 0.0256614462, 0, -0.999669969)
+    end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Haunted House",
+   Callback = function()
+      game.Workspace.beeposkoop.HumanoidRootPart.CFrame = CFrame.new(4438, 49.2999916, -753, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+    end,
+})
+
+local Section = Tab:CreateSection("edibux grinder + time grinder") 
+
+local Button = Tab:CreateButton({
+   Name = "Outside Ironwood (GRINDER)",
+   Callback = function()
+    Rayfield:Notify({
+        Title = "NOTE",
+        Content = "Unsure if you get kicked for being idle, so use nameless or inf yeild and do 'antiafk'",
+        Duration = 6.5,
+        Image = 4483362458,
+        Actions = { -- Notification Buttons
+     
+           Ignore = { -- Duplicate this table (or remove it) to add and remove buttons to the notification.
+              Name = "Okay!",
+              Callback = function()
+                 print("The user tapped Okay!")
+              end
+           },
+     
+     },
+     })
+     wait(2)
+     Rayfield:Notify({
+        Title = "NOTE 2",
+        Content = "This script will run forever until you leave the server.",
+        Duration = 6.5,
+        Image = 4483362458,
+        Actions = { -- Notification Buttons
+     
+           Ignore = { -- Duplicate this table (or remove it) to add and remove buttons to the notification.
+              Name = "Okay!",
+              Callback = function()
+                 print("The user tapped Okay!")
+              end
+           },
+     
+     },
+     })
+    wait(2)
+    while true do
+      game.Workspace.beeposkoop.HumanoidRootPart.CFrame = CFrame.new(3339.30469, -83.0989456, -4363.15137, 0.992708921, 8.96966856e-09, 0.120536231, -1.98379109e-08, 1, 8.89657983e-08, -0.120536231, -9.07083262e-08, 0.992708921)
+      wait(1)
+      game.Workspace.beeposkoop.HumanoidRootPart.CFrame = CFrame.new(3384.77246, -83.0989456, -4363.00977, 0.997562408, 3.0139983e-08, -0.0697802231, -3.44984343e-08, 1, -6.12545605e-08, 0.0697802231, 6.35125588e-08, 0.997562408)
+      wait(1)
+      end
+   end,
+})

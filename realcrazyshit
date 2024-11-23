@@ -125,8 +125,8 @@ local Button = Tab:CreateButton({
       
       },
       })
-      wait(10)
-      game.Workspace.LocalPlayer.HumanoidRootPart.CFrame = CFrame.new(3384.77246, -83.0989456, -4363.00977, 0.997562408, 3.0139983e-08, -0.0697802231, -3.44984343e-08, 1, -6.12545605e-08, 0.0697802231, 6.35125588e-08, 0.997562408)
+      wait(4)
+      game.Workspace.bob111136.HumanoidRootPart.CFrame = CFrame.new(3384.77246, -83.0989456, -4363.00977, 0.997562408, 3.0139983e-08, -0.0697802231, -3.44984343e-08, 1, -6.12545605e-08, 0.0697802231, 6.35125588e-08, 0.997562408)
       wait(1)
       game.Players.LocalPlayer:kick("NAHHHHH YOU THOUGHT LMAO")
    end,

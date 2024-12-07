@@ -1,0 +1,194 @@
+local plr = game.Workspace.YOURNAME
+--replace 'YOURNAME' with your roblox username, don't use your display
+
+--actual script
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local Window = Rayfield:CreateWindow({
+    Name = "andres's nicos nextbots stuff",
+    Icon = 91464982890822, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
+    LoadingTitle = "fucking hell i hate myself",
+    LoadingSubtitle = "have fun ig",
+    Theme = "Amethyst", -- Check https://docs.sirius.menu/rayfield/configuration/themes
+ 
+    DisableRayfieldPrompts = false,
+    DisableBuildWarnings = false, -- Prevents Rayfield from warning when the script has a version mismatch with the interface
+ 
+    ConfigurationSaving = {
+       Enabled = true,
+       FolderName = anns, -- Create a custom folder for your hub/game
+       FileName = "andresnicosnextbotsstuff"
+    },
+ 
+    Discord = {
+       Enabled = false, -- Prompt the user to join your Discord server if their executor supports it
+       Invite = "noinvitelink", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
+       RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+    },
+ 
+    KeySystem = false, -- Set this to true to use our key system
+    KeySettings = {
+       Title = "man FUCK keysystems",
+       Subtitle = "Key System",
+       Note = "No method of obtaining the key is provided", -- Use this to tell the user how to get a key
+       FileName = "Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
+       SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+       GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+       Key = {"Hello"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+    }
+ })
+
+--#################################################################################################
+
+ Rayfield:Notify({
+    Title = "⚠ NOTE ⚠",
+    Content = "This only works in 'open space'",
+    Duration = 6.5,
+    Image = 4483362458,
+ })
+
+ local Tab = Window:CreateTab("Normal Teleports", 4483362458)
+ local Section = Tab:CreateSection("ONLY WORKS IN OPEN SPACE")
+
+ local Button = Tab:CreateButton({
+    Name = "Mall",
+    Callback = function()
+        plr.HumanoidRootPart.CFrame = CFrame.new(-864.216309, 9.09296894, -254.785141, -0.0463633537, 0, 0.998924732, 0, 1, 0, -0.998924732, 0, -0.0463)  
+    end,
+ })
+
+ local Button = Tab:CreateButton({
+    Name = "Russia",
+    Callback = function()
+        plr.HumanoidRootPart.CFrame = CFrame.new(-157.611786, 11.4498997, -424.272095, 0.985522926, -0, -0.169542372, 0, 1, -0, 0.169542372, 0, 0.985)  
+    end,
+ })
+
+ local Button = Tab:CreateButton({
+    Name = "Tunnels (From Russia)",
+    Callback = function()
+        plr.HumanoidRootPart.CFrame = CFrame.new(-258.110779, -29.6149921, -468.970367, -0.999903202, -4.14079188e-11, 0.013927605, -4.38537262e-11, 1, -1.75303091e-10, -0.013927605, -1.75896867e-10, -0.9999032)  
+    end,
+ })
+
+ local Button = Tab:CreateButton({
+    Name = "Port",
+    Callback = function()
+        plr.HumanoidRootPart.CFrame = CFrame.new(-688.381042, -35.6070938, 1159.85852, 0.0416129827, 0, 0.999133825, 0, 1, 0, -0.999133825, 0, 0.041612)  
+    end,
+ })
+
+ local Button = Tab:CreateButton({
+    Name = "Airport",
+    Callback = function()
+        plr.HumanoidRootPart.CFrame = CFrame.new(-3048.24341, 42.3492088, 1382.56287, 0.00127363205, 0, 0.999999225, 0, 1, 0, -0.999999225, 0, 0.001273632)  
+    end,
+ })
+
+ local Button = Tab:CreateButton({
+    Name = "Hotel",
+    Callback = function()
+        plr.HumanoidRootPart.CFrame = CFrame.new(-1674.42664, 196.811508, -655.217102, -0.0494554043, -0, -0.998776436, 0, 1, -0, 0.998776436, 0, -0.0494)  
+    end,
+ })
+
+ local Button = Tab:CreateButton({
+    Name = "Poolrooms",
+    Callback = function()
+        plr.HumanoidRootPart.CFrame = CFrame.new(-1971.65515, 492.043915, -294.864166, -0.998467207, 6.23220295e-11, -0.0553451478, 4.88961961e-11, 1, 2.43937814e-10, 0.0553451478, 2.40857778e-10, -0.9984)  
+    end,
+ })
+
+  local Button = Tab:CreateButton({
+    Name = "Outpost",
+    Callback = function()
+        plr.HumanoidRootPart.CFrame = CFrame.new(94.2273102, 11.8062477, -2016.31213, -0.998751879, 4.15804488e-19, -0.049955111, 4.10679742e-19, 1, 1.12851721e-19, 0.049955111, 9.21952699e-20, -0.998751879)  
+    end,
+ })
+ 
+ local Tab = Window:CreateTab("Normally Unseen Areas", 4483362458)
+ local Section = Tab:CreateSection("ONLY WORKS IN OPEN SPACE")
+
+ local Button = Tab:CreateButton({
+    Name = "Playground",
+    Callback = function()
+        plr.HumanoidRootPart.CFrame = CFrame.new(-3090.62573, -432.000092, -1072.12878, 0.105501771, 0, 0.994419158, 0, 1, 0, -0.994419158, 0, 0.105501771)  
+    end,
+ })
+
+ local Button = Tab:CreateButton({
+    Name = "Bigmaze",
+    Callback = function()
+        plr.HumanoidRootPart.CFrame = CFrame.new(1214.30444, 41.0635147, -1654.15613, 0.995032728, -3.87950132e-12, 0.0995485932, 3.60957228e-12, 1, 2.89164331e-12, -0.0995485932, -2.51795178e-12, 0.995032728)  
+    end,
+ })
+
+ local Button = Tab:CreateButton({
+    Name = "Dreammaze",
+    Callback = function()
+        plr.HumanoidRootPart.CFrame = CFrame.new(27.3366184, -219.946381, -1725.71509, -0.0036740303, 2.19367705e-10, -0.999993384, 4.39342035e-11, 1, 2.19207777e-10, 0.999993384, -4.31285702e-11, -0.0036740)  
+    end,
+ })
+
+ local Button = Tab:CreateButton({
+    Name = "Flatgrass",
+    Callback = function()
+        plr.HumanoidRootPart.CFrame = CFrame.new(-3086.02173, -432, -1083.81091, 1, 2.03765715e-09, 3.15905982e-12, 2.03765715e-09, 1.00000024, 1.47680965e-11, 3.15905982e-12, 1.47680965e-11, 1)  
+    end,
+ })
+
+ local Tab = Window:CreateTab("Grinder (Nextbuxs, Time, Etc.)", 4483362458)
+ local Section = Tab:CreateSection("ONLY WORKS IN OPEN SPACE")
+
+ local Button = Tab:CreateButton({
+    Name = "Mall Area Grinder",
+    Callback = function()
+        Rayfield:Notify({
+            Title = "⚠ NOTE ⚠",
+            Content = "This script will run FOREVER and will not end until you leave, use Infinite Yeild's 'antiafk' command to not be kicked!",
+            Duration = 6.5,
+            Image = 4483362458,
+         })
+
+         plr.HumanoidRootPart.CFrame = CFrame.new(-789.155334, 2.39976931, -58.7930145, -0.0289692879, -1.4497209e-10, 0.999580383, -2.05224671e-10, 1, 1.39085271e-10, -0.999580383, -2.01109351e-10, -0.0289692879) 
+
+         wait(3)
+         
+         while true do
+            plr.HumanoidRootPart.CFrame = CFrame.new(-789.155334, 2.39976931, -58.7930145, -0.0289692879, -1.4497209e-10, 0.999580383, -2.05224671e-10, 1, 1.39085271e-10, -0.999580383, -2.01109351e-10, -0.0289692879)
+            wait(1)
+            plr.HumanoidRootPart.CFrame = CFrame.new(-788.671021, 2.39976931, -81.9933014, -0.00271761417, 2.27315666e-11, 0.999996424, -3.00060359e-11, 1, -2.28131923e-11, -0.999996424, -3.00679169e-11, -0.00271761417)
+            wait(1)
+        end
+    end,
+ })
+
+ local Tab = Window:CreateTab("Extra Scripts", 4483362458)
+ local Section = Tab:CreateSection(":P")
+
+ local Button = Tab:CreateButton({
+    Name = "Infinite Yield",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+    end,
+ })
+
+ local Button = Tab:CreateButton({
+    Name = "Nameless Admin",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source'))()
+    end,
+ })
+
+ local Tab = Window:CreateTab("Keybinds", 4483362458)
+ local Section = Tab:CreateSection(":P")
+
+ local Keybind = Tab:CreateKeybind({
+    Name = "Kill Bind",
+    CurrentKeybind = "SET THIS",
+    HoldToInteract = false,
+    Flag = "Killbind",
+    Callback = function(Keybind)
+        game.Players.LocalPlayer.Character.Humanoid.Health = 0
+    end,
+ })

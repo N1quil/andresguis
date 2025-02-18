@@ -2562,8 +2562,8 @@ local function FartHubLoad()
 		})
 
 		Rayfield:Notify({
-			Title = "FemQuil Disabled Key",
-			Content = "gg ez no re",
+			Title = "Cracked by FemQuil",
+			Content = "this took less then a MINUTE",
 			Duration = 7.2,
 			Image = "disc-3",
 		})

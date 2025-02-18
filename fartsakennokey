@@ -2561,6 +2561,13 @@ local function FartHubLoad()
 			Image = "disc-3",
 		})
 
+		Rayfield:Notify({
+			Title = "FemQuil Disabled Key",
+			Content = "gg ez no re",
+			Duration = 7.2,
+			Image = "disc-3",
+		})
+
 		-- Visuals Tab
 		local VisualsSection = VisualsTab:CreateSection("Highlights For Things.")
 

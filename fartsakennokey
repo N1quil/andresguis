@@ -2245,7 +2245,7 @@ local function FartHubLoad()
 			return
 		end
 
-		PlayBoing("FartHub/Assets/Boing.mp3")
+		sound:Play()
 
 		FlipCooldown = true
 		local character = game:GetService("Players").LocalPlayer.Character
@@ -2631,7 +2631,6 @@ local function FartHubLoad()
 			CurrentKeybind = "P",
 			Callback = function()
 				FortniteFlips()
-				sound:Play()
 			end,
 		})
 

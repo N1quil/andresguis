@@ -13,6 +13,12 @@ local UICorner_3
 local GetKey
 local UICorner_4
 
+local sound = Instance.new("Sound", part)
+sound.SoundId = "rbxassetid://2357464981" 
+sound.EmitterSize = 10 -- decrease the emitter size (for earlier volume drop off)
+sound.Looped = false
+sound.Parent = game.Players.LocalPlayer
+
 -- this is like the worst script ever bro
 -- like allat needs to be deleted 🙏
 
@@ -2625,6 +2631,7 @@ local function FartHubLoad()
 			CurrentKeybind = "P",
 			Callback = function()
 				FortniteFlips()
+				sound:Play()
 			end,
 		})
 
